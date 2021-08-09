@@ -1,0 +1,10 @@
+---
+- hosts: 10.10.20.164
+  tasks:
+
+  - name: uninstall httpd package
+    service:
+      name: httpd
+      state: absent
+
+
