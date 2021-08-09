@@ -3,7 +3,7 @@
   tasks:
 
   - name: uninstall httpd package
-    service:
+    yum:
       name: httpd
       state: absent
 
